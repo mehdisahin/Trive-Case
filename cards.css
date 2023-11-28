@@ -1,0 +1,199 @@
+.why {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fafafa;
+}
+.why-header {
+	color: #2a2b23;
+
+	font: normal normal bold 48px/80px Poppins;
+	letter-spacing: 0px;
+	margin-bottom: 70px;
+}
+.why-cards {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 36px;
+	width: 1270px;
+	height: 507px;
+}
+.grid-2-col {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 400px;
+	height: 300px;
+	padding: 16px 0 17px 26px;
+}
+.why-card-left {
+	font-size: 20px;
+	background-color: #5770ea;
+	border-radius: 8px;
+	color: #ffff;
+}
+
+.why-card-middle {
+	background-color: #0097d6;
+	border-radius: 8px;
+	color: #ffff;
+}
+.why-card-right {
+	background-color: #17ada1;
+	border-radius: 8px;
+	color: #ffff;
+}
+.why-card-header {
+	font-size: 36px;
+	font-weight: 700;
+}
+.why-card-text {
+	font-size: 24px;
+	color: #ffff;
+	font-weight: 200px;
+	line-height: 36px;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	padding-right: 86px;
+}
+.why-img {
+	margin: -50px 27px 0 0;
+	justify-self: end;
+	align-self: self-start;
+	/* filter: drop-shadow(20px 20px 15px); */
+	box-shadow: 20px 43px 26px #00000029;
+}
+
+/* TRADING PLATFORMS AND TOOLS */
+/* //////////////////////////////////// */
+.tool {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fafafa;
+}
+.tool-header {
+	font-size: 48px;
+	color: #2a2b23;
+	font-weight: 700;
+	margin-bottom: 36px;
+}
+.tool-cards {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 35px;
+}
+.tool-card {
+	background-color: #ffdd5c;
+	width: 540px;
+	height: 630px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	padding: 35px;
+	padding-right: 45px;
+	position: relative;
+}
+.tool-card-header {
+	font-size: 36px;
+	color: #2a2b23;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+.tool-card-text {
+	font-size: 30px;
+	font-weight: 300;
+	color: #2a2b23;
+	line-height: 1.4;
+}
+.text-right {
+	margin-right: 90px;
+}
+.mt {
+	font-size: 200px;
+	font-weight: 750;
+	color: #fff2c2;
+	position: absolute;
+}
+.mt4 {
+	align-self: flex-end;
+	height: 300px;
+	bottom: 0;
+	right: 0;
+	margin: 0 -10px -80px 0;
+}
+
+.mt5 {
+	align-self: flex-end;
+	height: 300px;
+	bottom: 0;
+	left: 0;
+	margin: 0 0 -80px -12px;
+}
+.phone-left {
+	transform: translateX(-300px) translateY(-50px);
+}
+.phone-right {
+	width: 326px;
+	height: 544px;
+	transform: translateX(400px) translateY(-200px);
+}
+
+/* TRADING CALL TO ACTION */
+/* //////////////////////////////////// */
+.cta {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #fafafa;
+}
+.cta-cards {
+	display: flex;
+	margin-top: 70px;
+	gap: 36px;
+}
+.cta-card {
+	display: flex;
+	flex-direction: column;
+	padding: 50px 65px 27px 26px;
+	background-color: #274f91;
+	border-radius: 8px;
+	width: 310px;
+	height: 400px;
+}
+.cta-logo {
+	align-self: flex-end;
+}
+.cta-header {
+	font-size: 36px;
+	margin: 48px 40px 0 0;
+	color: #ffff;
+	font-weight: 600;
+}
+.cta-text {
+	margin-right: 21px;
+	font-size: 24px;
+	color: #ffff;
+}
+.cta-button {
+	margin-bottom: 34px;
+}
+.button {
+	background-color: #5770ea;
+	border-radius: 4px;
+	color: #ffff;
+	height: 48px;
+	width: 200px;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 68px;
+	cursor: pointer;
+	border: none;
+}
+.button:hover {
+	background-color: #304fe9;
+}

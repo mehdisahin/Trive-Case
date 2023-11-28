@@ -1,0 +1,21 @@
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: #c8cbcc;
+	background-color: #2a2b23;
+	height: 400px;
+	padding: 182px 321px 224px 324px;
+	line-height: 2;
+}
+.footer-header {
+	font-size: 12px;
+	align-self: flex-start;
+}
+.footer-text {
+	display: flex;
+	flex-direction: column;
+	font-size: 12px;
+	gap: 50px;
+}
